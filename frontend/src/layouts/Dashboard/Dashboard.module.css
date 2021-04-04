@@ -1,0 +1,80 @@
+.topDownContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftColumn {
+    height: 100vh; /* percent relative to viewport height */
+    width: 60%;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rightColumn {
+    height: 100vh; /* percent relative to viewport height */
+    width: 40%;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.topDownToolbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.topDownToolbar > div {
+    display: flex;
+    flex-direction: column;
+}
+
+div.volumeTimelineContainer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+}
+
+div.filtrationLayer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0px;
+    border: 1px solid lightgrey;
+    padding-top: 20px;
+}
+ 
+
+
+.layerGraphs {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.topDownHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topDownTitle {
+    display: flex;
+    align-items: center;
+    width: 100%; justify-content: center;
+    height: 30px;
+}
+
+.addLayerIcon {
+    height: 28px;
+    width: 28px;
+    stroke-width: 1px;
+    margin: 17px;
+    cursor: pointer;
+    fill: white;
+}

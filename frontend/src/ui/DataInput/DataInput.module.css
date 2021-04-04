@@ -1,0 +1,11 @@
+.cancelButton {
+    margin-left: 15px;
+}
+
+.uploadProgress {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    padding-bottom: 10px;
+}

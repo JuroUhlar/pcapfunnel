@@ -1,0 +1,23 @@
+.layersDND {
+    display: flex;
+    justify-content: space-around;
+}
+
+.layersModalContainer {
+    width: 600px !important;
+    min-height: 350px !important;
+    border-radius: 20px;
+}
+
+.saveLayersButton {
+    margin: 30px 3px;
+}
+
+.columnTitles {
+    display: flex;
+    justify-content: space-around;
+}
+
+#usedColumn>div {
+    font-weight: bold;
+}

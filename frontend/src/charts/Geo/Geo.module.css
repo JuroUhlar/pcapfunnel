@@ -1,0 +1,34 @@
+.geo_connection_node {
+  stroke: grey;
+  stroke-width: 0.1;
+  fill: var(--primary-color);
+  fill-opacity: 0.6;
+  cursor: pointer;
+}
+
+.geo_connection_node:hover {
+  stroke: black;
+  stroke-width: 0.2;
+  fill-opacity: 0.9;
+}
+
+.geo_connection_link {
+  fill: none;
+  stroke: var(--contrast-color);
+  stroke-width: 0.5;
+  stroke-opacity: 0.5;
+  cursor: pointer;
+}
+
+.geo_connection_link:hover {
+  stroke-opacity: 0.9;
+}
+
+.textStats {
+  text-align: center;
+}
+
+.topCountryTable {
+  width: 430px;
+  margin: 0px 15px;
+}

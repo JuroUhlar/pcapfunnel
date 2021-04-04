@@ -1,0 +1,30 @@
+image: node:10.13.0
+
+stages:
+  - deploy
+
+deploy_prod:
+  stage: deploy
+  environment:
+    name: production
+    url: https://pcap-viz.surge.sh/
+  only:
+    - master
+  script:
+    - cd frontend
+    - npx yarn install
+    - npx yarn build
+    - npx surge build pcap-viz.surge.sh --token $SURGE_AUTH_TOKEN
+
+deploy_dev:
+  stage: deploy
+  environment:
+    name: dev
+    url: https://pcap-viz-dev.surge.sh/
+  only:
+    - dev
+  script:
+    - cd frontend
+    - npx yarn install
+    - npx yarn build
+    - npx surge build pcap-viz-dev.surge.sh --token $SURGE_AUTH_TOKEN

@@ -1,0 +1,28 @@
+.gearIcon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    stroke-width: 1.2px;
+    margin: 0px 7px;
+}
+
+.settingsModalContainer {
+    width: 600px !important;
+    min-height: 350px !important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsBox {
+    width: 400px;
+    text-align: left;
+}
+
+.settingsLine {
+    display: flex;
+    align-items: center;
+}

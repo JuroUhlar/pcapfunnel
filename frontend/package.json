@@ -1,0 +1,65 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/d3": "^5.7.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-beautiful-dnd": "^13.0.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-select": "^3.0.23",
+    "@types/react-tabs": "^2.3.2",
+    "@types/socket.io-client": "^1.4.33",
+    "comlink-loader": "^2.0.0",
+    "country-iso-2-to-3": "^1.1.0",
+    "country-iso-3-to-2": "^1.1.0",
+    "csvtojson": "^2.0.10",
+    "d3": "^5.15.1",
+    "i18n-iso-countries": "^6.4.0",
+    "mousetrap": "^1.6.5",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.13.1",
+    "react-flagkit": "^2.0.4",
+    "react-icons": "^3.11.0",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-simple-snackbar": "^1.1.10",
+    "react-tabs": "^3.1.1",
+    "react-tooltip": "^4.2.10",
+    "simple-react-modal": "^0.5.1",
+    "socket.io-client": "^2.3.0",
+    "socketio-file-upload": "^0.7.2",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "netlify deploy --prod --dir=build --site=4f4f5c6d-85b1-40cf-820a-9bb5abc20652",
+    "build-deploy": "yarn build && yarn deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3000"
+}

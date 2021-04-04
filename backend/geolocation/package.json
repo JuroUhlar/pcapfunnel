@@ -1,0 +1,26 @@
+{
+  "name": "pcap-vis-geolocation",
+  "version": "1.0.0",
+  "description": "A web based visualization of Pcap files",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev-start": "nodemon ./index.js",
+    "deploy": "gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.ics.muni.cz:nc3/tractor/pcap-vis.git"
+  },
+  "author": "Juraj Uhlar",
+  "license": "ISC",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

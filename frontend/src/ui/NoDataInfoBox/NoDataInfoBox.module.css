@@ -1,0 +1,24 @@
+
+.noDataInfoBox {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.noDataInfoBoxText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+.noDataInfoBoxIcon {
+    padding: 7px;
+    cursor: pointer;
+}
+
+.infoIcon {
+    margin-right: 10px
+}

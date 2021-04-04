@@ -1,0 +1,33 @@
+.icon {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    stroke-width: 1.2px;
+    margin: 0px 7px;
+    fill: white;
+}
+
+.smallIcon {
+    height: 18px !important;
+    margin: 0px !important;
+    fill: white;
+}
+
+.keepOnHover {
+    font-size: 20px !important;
+    pointer-events: auto !important;
+}
+
+.keepOnHover:hover {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.tooltipContent {
+    font-size: 0.8em;
+    max-width: 500px;
+}
+
+.tooltipContent li {
+    margin: 10px 0;
+}

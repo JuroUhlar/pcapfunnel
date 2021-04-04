@@ -1,0 +1,52 @@
+.dataTable {
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataTable td {
+    padding: 4px 5px;
+}
+
+.dataTable .paper {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.dataTableToolbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px
+}
+
+.modeSelect {
+    margin-left: 30px;
+}
+
+.cellLink {
+    cursor: pointer;
+}
+
+.tableFlag {
+    vertical-align: bottom;
+    margin-left: 3px;
+}
+
+.tableFlagLeft {
+    vertical-align: bottom;
+    margin-right: 3px;
+}
+
+.dataTable thead td {
+    cursor: pointer;
+    text-align: right;
+}
+
+.sortedByColumnHeader {
+    background-color: #F2F2F2;
+}

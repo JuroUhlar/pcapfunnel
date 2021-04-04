@@ -1,0 +1,28 @@
+.network_graph_circle {
+    fill-opacity: 0.8;
+    cursor: pointer;
+    fill: var(--primary-color);
+}
+
+.network_graph_circle:hover {
+    fill: var(--contrast-color);
+    stroke: black;
+    stroke-width: 2px;
+    fill-opacity: 1;
+}
+
+.network_graph_line {
+    stroke: darkgrey;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.network_graph_line:hover {
+    stroke: black;
+    opacity: 1;
+}
+
+.network_graph_container {
+    background-color: white;
+    margin: 10px 0;
+}

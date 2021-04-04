@@ -1,0 +1,86 @@
+div.statTableContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.statTableToolbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.statTableToolbar h3 {
+    text-transform: capitalize;
+}
+
+input[type='checkbox'] {
+    /* width: 16px;
+    height: 16px; */
+    cursor: pointer;
+}
+
+.layerSelect {
+    margin-left: 30px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.statName {
+    min-width: 200px !important;
+}
+
+.statTableRow:hover {
+    background-color: lightgray;
+}
+
+.statTableRow_selected {
+    background-color: var(--contrast-color-soft);
+}
+
+.selected_table_row {
+    background-color: beige;
+}
+
+.deleteLayerIcon {
+    margin: 13px;
+    cursor: pointer;
+}
+
+.editLayersIcon {
+    cursor: pointer;
+}
+
+.lineIcon {
+    cursor: pointer;
+}
+
+.lineIcon {
+    cursor: pointer;
+    margin: 0 5px;
+    vertical-align: bottom;
+    visibility: hidden;
+}
+
+.statTableRow:hover .lineIcon, .statTableRow_selected:hover .lineIcon {
+    visibility: visible;
+}
+
+/* Progress bar */
+
+.outerProgressDiv {
+    background-color: white;
+    border: 1px solid grey;
+    height: 10px;
+    width: 100px;
+}
+
+.percentageRect {
+    background-color: var(--primary-color);
+    height: 10px;
+}
+
+.innerProgressDiv {
+    background-color: var(--contrast-color);
+    height: 10px;
+}

@@ -1,0 +1,46 @@
+.mainTimeline {
+  display: flex;
+  padding: 20px;
+}
+
+
+.timeSelectionUI {
+  float: right;
+  min-width: 250px;
+  max-width: 22%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.timeSelectionUI select {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.mirrorContainer {
+  display: flex;
+  flex-direction: column; 
+}
+
+.mirrorContainer h2 {
+  text-transform: capitalize;
+}
+
+.localTrafficRect {
+  fill: #1d3557;
+}
+
+.incomingLocalTrafficRect {
+  fill: #e76f51; 
+}
+
+.outgoingTrafficLegend {
+  background-color: #1d3557;
+  color: white;
+}
+
+.incomingTrafficLegend {
+  background-color: #e76f51; 
+}
