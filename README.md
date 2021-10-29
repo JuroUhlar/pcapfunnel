@@ -14,7 +14,7 @@ Student: [Juraj Uhlar](https://is.muni.cz/auth/osoba/422160), mail: [422160@mail
 This will take a few minutes but eventually the application will be available on in your broswer on `localhost:3000`.
 We recommend using Google Chrome with 1920x1080 resolution.
 
-## Running the web application indivudually
+## Running the web application individually
 
 In the console:
 
