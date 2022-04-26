@@ -4,6 +4,10 @@ The goal of this master thesis project is to provide a novel visualization tool 
 
 Demo: [https://pcap-viz.surge.sh/](https://pcap-viz.surge.sh/)
 
+Resulting diploma thesis: [https://is.muni.cz/th/ejjrg](https://is.muni.cz/th/ejjrg)
+
+Resulting conference paper: [https://www.muni.cz/en/research/publications/1771159](https://www.muni.cz/en/research/publications/1771159)
+
 Student: [Juraj Uhlar](https://is.muni.cz/auth/osoba/422160), mail: [422160@mail.muni.cz](mailto:422160@mail.muni.cz)
 
 ## Running everything using Vagrant 
